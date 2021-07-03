@@ -1,0 +1,229 @@
+a:link,a:visited{
+    display: block;
+    width: 140px;
+    font-weight: bold;
+ 
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a{
+	color:yellow;
+}
+#abc{
+	color:blue;
+	
+}
+#abc:hover, #abc:active{
+    color: black;
+    transition: 0.3s ease;
+}
+
+
+h1 {
+ color: white;
+ margin-left: 40px;
+ text-align:centre;
+ padding-top:10px;
+ text-decoration:underline;
+ 
+} 
+h2{
+	color:#D2691E;
+	 margin-left: 40px;
+ text-align:centre;
+ padding-top:10px;
+ text-decoration:underline;
+ 
+}
+.cccc:hide{
+color:black;
+}
+
+
+.main-header{
+	
+	text-align: center;
+}
+.container{
+	text-align:center;
+	background-color:black;
+	padding-bottom:20px;
+}
+.cont{
+	padding-top:50px;
+	text-align:center;
+	background-color:black;
+	padding-bottom:380px;
+	
+}
+#more {display: none;}
+
+
+.cont li{
+	display:inline;
+}
+
+.cont2{
+	background-color:#F0E68C;
+	padding-left: 500px;
+	padding-right:500px;
+}
+
+
+
+li{
+	display:block;
+	float:left;
+	padding-left:10px;
+	text-transform:uppercase;
+	color:white;
+	
+}
+
+
+a:hover, a:active{
+    color: #ff5e5c;
+    transition: 0.3s ease;
+}
+
+#main{
+    background-color: black;
+    color: #98FB98;
+    padding: 0cm 1cm 1cm;
+    padding-top: 30px;
+	text-align:centre;
+	padding-left:140px;
+	padding-right:140px;
+		font-style:italic;
+	
+}
+
+#footer{
+	background-color:black;
+    text-align: center;
+    color: #ffd88e;
+    font-size: 1em;
+	padding-bottom:30px;
+
+}
+
+.my-form{
+	
+	padding:20px;
+}
+.my-form lable{
+	display:block;
+}
+
+.my-form input[type="text"]{
+	paddding:8px;
+	width:80%
+}
+.my-form input[type="email"]{
+	paddding:8px;
+	width:80%
+}
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:blue;
+	color:white;
+}
+
+
+.one{
+	background-color:#FF7F50;
+	color:white;
+	font-style:italic;
+	text-align:center;
+	background-image:url("cover_2.jpg");
+}
+
+.two{
+	background-color:#008080;
+	color:white;
+	font-style:italic;
+	text-align:center;
+	background-image:url("cover_2.jpg");
+	padding-bottom:10px;
+	padding-top:30px;
+}
+h3{
+	font-weight: bold;
+	text-transform:uppercase;
+	color:black;
+}
+Body{
+	background-color:black;
+}
+
+
+#link{
+	padding: 5px;
+	padding-right:170px;
+}
+
+
+
+
+#main2{
+	color:red;
+}
+
+.yesss{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+	
+}
+
+.noo{
+float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

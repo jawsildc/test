@@ -1,0 +1,126 @@
+ 
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        
+         <link href="style.css" rel="stylesheet" type="text/css"/>
+				<script src="jquery-3.4.1.js"></script>
+		 	 <script>
+
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "AQUAMARINE");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "LAVENDERBLUSH");
+  });
+});
+
+</script>
+		 
+		 
+		 
+		 
+		 
+	  <script>
+			 
+		 function validate()
+		 {
+	
+		 var username=document.getElementById("Username").value;
+		 var password=document.getElementById("Password").value;
+		  var name=document.getElementById("name").value;
+		   var email=document.getElementById("email").value;
+
+		     if(name == ""){
+		 window.alert("please enter your name");
+		 document.getElementById("name").focus();
+		 return false;
+		 }
+		 
+		  if(email == ""){
+		 window.alert("please enter your email");
+		 document.getElementById("email").focus();
+		 return false;
+		 }
+			
+		 if(username == ""){
+		 window.alert("please enter your Username");
+		 document.getElementById("Username").focus();
+		 return false;
+		 }
+		 
+		 if(password == ""){
+		 window.alert("please enter your password");
+		 document.getElementById("Password").focus();
+		 return false;
+		 }
+		 
+		
+		
+		 return true;
+		 }
+		 </script>
+		 
+		 
+    </head>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    <body>
+         <div class="container">
+			<h1 style="color:white;">Just Writes</h1>
+          
+
+		<ul>
+				<li><a href="index.html">home</a></li>
+				<li><a href="new.html">new releases</a></li>
+				<li><a href="login.html">place Order     </a></li>
+		</ul>
+		</div>
+	
+        <div class="cont2">   
+            <h2>SIGN UP</h2>
+
+
+
+            <form class="myform" action="contact.html" method="post" onsubmit="return validate()" >
+			
+                <label> Name:</label> 
+                <input id="name" type="text" name="Name" required><br><br>
+               
+                <label> Email address</label>
+                <input type="email" name="Email" required><br><br>
+              
+          <label>Username:</label> 
+                <input id="Username" type="text" name="Username" required><br><br>
+                <label> password:</label>
+                <input id="Password" type="Password" name="Password" minlength="8" required><br><br>
+
+
+
+				<div>
+                <input class="button" type="submit" value="sign up" style="color:red;">
+				</div>
+            </form>
+
+
+
+        </div>
+		
+
+
+		<div id="footer">   
+        Copyright @2019 dcsss
+</div>
+
+    </body>
+</html>
